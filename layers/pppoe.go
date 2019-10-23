@@ -8,7 +8,7 @@ package layers
 
 import (
 	"encoding/binary"
-	"github.com/google/gopacket"
+	"github.com/photostorm/gopacket"
 )
 
 // PPPoE is the layer for PPPoE encapsulation headers.

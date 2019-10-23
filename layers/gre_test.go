@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/gopacket"
+	"github.com/photostorm/gopacket"
 )
 
 // testPacketGRE is the packet:

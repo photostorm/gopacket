@@ -16,9 +16,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/ip4defrag"
-	"github.com/google/gopacket/layers" // pulls in all layers decoders
+	"github.com/photostorm/gopacket"
+	"github.com/photostorm/gopacket/ip4defrag"
+	"github.com/photostorm/gopacket/layers" // pulls in all layers decoders
 )
 
 var (

@@ -15,11 +15,11 @@ package main
 
 import (
 	"flag"
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/examples/util"
-	"github.com/google/gopacket/layers"
-	"github.com/google/gopacket/pcap"
-	"github.com/google/gopacket/tcpassembly"
+	"github.com/photostorm/gopacket"
+	"github.com/photostorm/gopacket/examples/util"
+	"github.com/photostorm/gopacket/layers"
+	"github.com/photostorm/gopacket/pcap"
+	"github.com/photostorm/gopacket/tcpassembly"
 	"log"
 	"time"
 )
