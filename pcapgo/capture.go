@@ -27,8 +27,6 @@ var auxLen = unix.CmsgSpace(int(unsafe.Sizeof(unix.TpacketAuxdata{})))
 var timensLen = unix.CmsgSpace(int(unsafe.Sizeof(unix.Timespec{})))
 var timeLen = unix.CmsgSpace(int(unsafe.Sizeof(unix.Timeval{})))
 
-func htons(data uint16) uint16 { return data<<8 | data>>8 }
-
 // EthernetHandle holds shared buffers and file descriptor of af_packet socket
 type EthernetHandle struct {
 	fd     int
